@@ -1,3 +1,4 @@
+--------------Aula 4 - Criando variáveis--------------------
 Criando variáveis:
 
 Sempre criamos variáveis com letras minusculas e sem acento.
@@ -8,3 +9,7 @@ idade        =     29
 peso         =     90
 
 Para criarmos perguntas e logo após abrir um campo para resposta, colocamos 'Input' que é igual a 'leia'.
+
+Exemplo:
+
+nome = input('Qual é o seu nome? ')
