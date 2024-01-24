@@ -1,4 +1,5 @@
 --------------Aula 4 - Criando variáveis--------------------
+
 Criando variáveis:
 
 Sempre criamos variáveis com letras minusculas e sem acento.
