@@ -14,3 +14,10 @@ Para criarmos perguntas e logo após abrir um campo para resposta, colocamos 'In
 Exemplo:
 
 nome = input('Qual é o seu nome? ')
+
+Quando terminamos uma sentença de código ou programa, é recomendando adicionar uma nova linha vazia abaixo. Conforme orientação PEP8
+
+Exemplo:
+
+print('Olá, mundo!') #Fim do programa/Sentença de código.
+(linha vazia aqui).
