@@ -21,3 +21,6 @@ Exemplo:
 
 print('Olá, mundo!') #Fim do programa/Sentença de código.
 (linha vazia aqui).
+
+-----------Aula 6 - Tipos primitivos e saída de dados-------
+
