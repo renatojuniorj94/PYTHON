@@ -32,7 +32,7 @@ str > Strings(Frases, palavras...) (Ex: 'Olá, mundo!', '7.5')
 
 Se não especificarmos o tipo primitivo, por padrão o 'type'(tipo) é 'str'(string).
 
-Outra maneira de usar type:
+Outra maneira de usar type usando métodos() (Todos os itens abaixo são métodos:
 
 isalnum – Verifique se todos os caracteres no texto são alfanuméricos
 isalpha – Verifique se todos os caracteres no texto são letras
