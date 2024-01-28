@@ -32,7 +32,7 @@ str > Strings(Frases, palavras...) (Ex: 'Olá, mundo!', '7.5')
 
 Se não especificarmos o tipo primitivo, por padrão o 'type'(tipo) é 'str'(string).
 
-Outra maneira de usar type usando métodos() (Todos os itens abaixo são métodos:
+Outra maneira de usar type usando métodos() (Todos os itens abaixo são métodos):
 
 isalnum – Verifique se todos os caracteres no texto são alfanuméricos
 isalpha – Verifique se todos os caracteres no texto são letras
@@ -46,3 +46,22 @@ isprintable – Verifique se todos os caracteres no texto são imprimíveis
 isspace – Verifique se todos os caracteres no texto são espaços em branco
 istitle – Verifique se cada palavra começa com uma letra maiúscula
 isupper – Verifique se todos os caracteres do texto estão em maiúsculas
+
+-----------Aula 7 - Operadores aritméticos---------
+
++ adição
+- subtração
+* multiplicação
+/ divisão
+** potência
+// divisão inteira
+% resto da divisão
+
+Ordem de precedência:
+1 ()
+2 potência **
+3 multiplicação*, divisão /, divisão inteira //, resto da divisão %
+4 adição +, subtração -
+
+Para fazer a raíz quadrada, exemplo:
+81**(1/2) == 9.0
