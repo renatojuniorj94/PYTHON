@@ -65,3 +65,5 @@ Ordem de precedência:
 
 Para fazer a raíz quadrada, exemplo:
 81**(1/2) == 9.0
+Ou
+pow(r, (1/2)) > 'r' nesse caso estamos atribuindo a uma variável.

@@ -3,4 +3,6 @@
 #Considere > U$ 1,00 = R$ 3,27
 
 d = float(input('Digite quando você tem (R$): '))
-print('Você tem R${:.0f}. Você pode comprar US${:.2f}'.format(d, d/3.27))
+print('Com R${} você pode comprar US${:.2f}'.format(d, d/3.27))
+
+#Correto! :D
