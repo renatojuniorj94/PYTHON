@@ -67,3 +67,8 @@ Para fazer a raíz quadrada, exemplo:
 81**(1/2) == 9.0
 Ou
 pow(r, (1/2)) > 'r' nesse caso estamos atribuindo a uma variável.
+
+-----------Aula 8 - Utilizando módulos---------
+
+https://docs.python.org/pt-br/3/library/index.html
+https://www.webfx.com/tools/emoji-cheat-sheet/
