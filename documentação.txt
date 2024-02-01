@@ -71,4 +71,5 @@ pow(r, (1/2)) > 'r' nesse caso estamos atribuindo a uma variável.
 -----------Aula 8 - Utilizando módulos---------
 
 https://docs.python.org/pt-br/3/library/index.html
+https://pypi.org/project/emoji/
 https://www.webfx.com/tools/emoji-cheat-sheet/

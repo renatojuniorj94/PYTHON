@@ -18,6 +18,7 @@ print(random.randint(1, 60), random.randint(1, 60), random.randint(1, 60),
       random.randint(1, 60),random.randint(1, 60), random.randint(1, 60))
 
 #https://www.webfx.com/tools/emoji-cheat-sheet/
+#https://pypi.org/project/emoji/
 import emoji
 print(emoji.emojize('Olá mundo :earth_americas:'))
 print(emoji.emojize('Python is :winking_face:'))#O nome do codigo é shortcode.
