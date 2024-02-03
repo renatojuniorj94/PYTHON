@@ -3,7 +3,7 @@
 #from math import sqrt > Importamos somente sqrt da biblioteca de matematica
 #from math import sqrt, ceil > Importando duas funcionalidades da biblioteca math
 
-"""import math
+import math
 num = int(input('Digite um número: '))
 raiz = math.sqrt(num)
 print('A raiz de {} é igual a {}'.format(num, math.ceil(raiz)))
@@ -11,7 +11,7 @@ print('A raiz de {} é igual a {}'.format(num, math.ceil(raiz)))
 from math import sqrt, ceil
 num = int(input('Digite um número: '))
 raiz = sqrt(num)
-print('A raiz de {} é igual a {}'.format(num, ceil(raiz)))"""
+print('A raiz de {} é igual a {}'.format(num, ceil(raiz)))
 
 import random
 print(random.randint(1, 60), random.randint(1, 60), random.randint(1, 60),
