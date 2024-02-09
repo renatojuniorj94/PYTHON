@@ -17,10 +17,10 @@ print(frase[9::3])
 #Lendo quantos caracteres possuí uma string.
 print(len(frase))
 
-#Exibindo quantidade de  letras "o" (minusculas) possui uma string.
+#Exibindo quantidade de letras "o" (minusculas) possui uma string.
 print(frase.count('o'))
 
-#Exibindo quantidade de letras "o" dentro de uma string.
+#Exibindo quantidade de letras "o" dentro de uma string do 0 ao 13.
 print(frase.count('o', 0, 13))
 
 #A partir de qual pedaço da string ele encontrou "deo"
