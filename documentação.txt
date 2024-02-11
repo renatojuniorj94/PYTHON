@@ -77,3 +77,7 @@ https://www.webfx.com/tools/emoji-cheat-sheet/
 
 ------------Aula 10 - Condições-------------
 
+https://docs.python.org/pt-br/3/tutorial/controlflow.html
+
+if e else > Estrutura condicional composta
+Somente if > Estrutura condicional simples.
