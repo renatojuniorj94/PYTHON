@@ -81,3 +81,45 @@ https://docs.python.org/pt-br/3/tutorial/controlflow.html
 
 if e else > Estrutura condicional composta
 Somente if > Estrutura condicional simples.
+
+----------Aula 11 - Cores no terminal-----------
+
+Padrão ANSI - Escape sequence
+Começa com contra barra '\'
+
+Em python começamos com:
+\033[m
+Entre colchete '[' e 'm' colocamos o código da cor.
+Style(0);Text(33);Back(44)
+\033[0;33;44m
+
+Códigos para style >
+0 (none)
+1 (bold)
+4 (underline)
+7 (negative)
+
+Códigos para text >
+30 black
+31 red
+32 green
+33 yellow
+34 blue
+35 magento
+36 ciano
+37 grey (cor padrão)
+97 white
+
+Códigos para background >
+40 black
+41 red
+42 green
+43 yellow
+44 blue
+45 magento
+46 ciano
+47 grey
+107 white
+
+Para tirar as configurações >
+\033[m
