@@ -8,3 +8,4 @@ if num % 2 == 0:
 else:
     print("O número {} é ímpar".format(num))
 
+#Correto! :D
