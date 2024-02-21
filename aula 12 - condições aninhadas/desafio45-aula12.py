@@ -9,11 +9,11 @@ jogador = int(input('Sua opções:\n'
                     '[ 1 ] PAPEL\n'
                     '[ 2 ] TESOURA\n'
                     'Qual é a sua jogada? '))
-if jogador != 0 and 1 and 2:
+if jogador > 2:
     print('\033[1;31mOpção inválida!\033[m')
+    exit()
 
-lista = ['pedra', 'papel', 'tesoura']
-computador = random.randint('pedra', 'papel', 'tesoura')
+computador = randint(0, 2)
 
 print('JO')
 sleep(1)
