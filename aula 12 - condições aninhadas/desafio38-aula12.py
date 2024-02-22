@@ -12,5 +12,7 @@ if n1 > n2:
     print('O primeiro número é maior.')
 elif n2 > n1:
     print('O segundo número é maior.')
-elif n1 == n2:
+elif n1 == n2:  # Aqui podemos usar else
     print('Não existe valor maior, os dois são iguais.')
+
+# Correto! :D
