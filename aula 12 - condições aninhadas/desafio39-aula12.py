@@ -14,7 +14,7 @@ ano_atual = date.today().year
 
 '''if idade > 0 and idade < 17:'''
 #Simplificando o if acima
-if 0 == idade < 17:
+if 0 < idade < 17:
     print('Faltam {} anos para você se apresentar a junta militar.'.format(18 - idade))
 elif idade == 17:
     print('Falta somente 1 ano pra o alistamento militar!')
@@ -26,3 +26,5 @@ elif idade > 18:
           'Se apresente a junta militar mais próxima!'.format(idade - 18))
 elif idade <= 0:
     print('Ano inválido!')
+
+# Correto! :D
