@@ -11,6 +11,7 @@ from datetime import date
 ano = int(input('Digite o ano do seu nascimento: '))
 idade = date.today().year - ano
 ano_atual = date.today().year
+ano_alistamento = ano_atual - idade
 
 '''if idade > 0 and idade < 17:'''
 #Simplificando o if acima
@@ -24,6 +25,7 @@ elif idade == 18:
 elif idade > 18:
     print('Já se passaram {} anos do seu período para alistamento militar.\n'
           'Se apresente a junta militar mais próxima!'.format(idade - 18))
+    print('Seu ano de alistamento foi em {}'.format(ano_alistamento))
 elif idade <= 0:
     print('Ano inválido!')
 
