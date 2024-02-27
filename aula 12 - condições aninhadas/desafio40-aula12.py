@@ -24,3 +24,6 @@ elif 5 <= media <= 6.99:
     print('Sua média foi {} e você está de \033[1;33mRECUPERAÇÃO\033[m!'.format(media))
 else:
     print('\033[1;32mParabéns\033[m! Sua média foi {} e você foi \033[1;32mAPROVADO\033[m!'.format(media))
+
+
+# Correto! :D
