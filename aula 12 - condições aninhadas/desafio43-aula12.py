@@ -11,14 +11,17 @@ e mostre seu status, de acordo com a tabela abaixo:
 peso = float(input('Digite seu peso: '))
 altura = float(input('Digite sua altura: '))
 imc = peso / (altura * altura)
+# Ou peso / (altura ** 2)
 
 if imc < 18.5:
     print('Seu IMC é {:.2f} e você está abaixo do peso ideal.'.format(imc))
 elif 18.5 <= imc <= 25:
     print('Seu IMC é {:.2f} e você está no peso ideal.'.format(imc))
-elif 25 >= imc or imc < 30:
+elif 25 >= imc and imc < 30:
     print('Seu IMC é {:.2f} e você está com sobrepeso.'.format(imc))
-elif imc >= 30 or imc <= 40:
+elif 30 <= imc <= 40:
     print('Seu IMC é {:.2f} e você está obeso.'.format(imc))
-elif 40 > imc:
+elif imc > 40:
     print('Seu IMC é {:.2f} e seu quadro é de obesidade mórbida'.format(imc))
+
+# Correto! :D
