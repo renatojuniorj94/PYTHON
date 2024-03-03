@@ -27,3 +27,5 @@ elif form_pag == 4:
     print('O valor do produto para pagamento em até 2x no cartão de crédito irá custar R$ {:.2f}'.format(cartao_tres))
 else:
     print('\033[1;31mOpção inválida!')
+
+# Correto! :D
