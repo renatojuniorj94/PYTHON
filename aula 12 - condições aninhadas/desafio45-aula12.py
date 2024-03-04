@@ -38,3 +38,5 @@ elif jogador == 2 and computador == 0:
     print('Computador venceu!')
 elif jogador == 2 and computador == 1:
     print('Você venceu!')
+
+    #
