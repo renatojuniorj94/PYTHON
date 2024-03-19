@@ -123,3 +123,10 @@ Códigos para background >
 
 Para tirar as configurações >
 \033[m
+
+----------Aula 13 - Estrutura de repetição for-----------
+
+https://docs.python.org/pt-br/3/tutorial/controlflow.html#for-statements
+
+Conhecido como laço de repetição ou iteração.
+
