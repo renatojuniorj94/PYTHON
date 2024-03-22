@@ -14,7 +14,7 @@ print('O número {} tem a parte inteira de {}'.format(num, math.trunc(num)))#Ou 
 from math import floor
 print('O número {} tem a parte inteira de {}'.format(num, floor(num)))
 
-#Correto! Mas o metodo correto é usar trunc.
+#Correto! Mas o método correto é usar trunc.
 
 #Podemos usar também int(num), sem precisar importar a biblioteca math.
 
