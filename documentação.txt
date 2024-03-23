@@ -130,3 +130,5 @@ https://docs.python.org/pt-br/3/tutorial/controlflow.html#for-statements
 
 Conhecido como laço de repetição ou iteração.
 
+------------------aula 14---------------
+
