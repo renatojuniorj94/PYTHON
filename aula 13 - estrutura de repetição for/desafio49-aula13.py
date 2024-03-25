@@ -4,6 +4,7 @@ só que agora utilizando um laço for.
 '''
 
 n = int(input('Digite um número inteiro: '))
-
+print('_' * 12)
 for c in range (1, 11):
     print('{} x {} = {}'.format(n, c, n * c))
+print('_' * 12)
