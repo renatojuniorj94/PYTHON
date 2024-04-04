@@ -7,4 +7,4 @@ t = int(input('Digite o termo: '))
 r = int(input('Digite a razão: '))
 
 for c in range(t, 1000, r):
-    print(c, 1, 10)
+    print(c)
