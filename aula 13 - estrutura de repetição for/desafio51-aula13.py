@@ -8,3 +8,4 @@ r = int(input('Digite a razão: '))
 
 for c in range(t, 1000, r):
     print(c)
+    print(c in range(1, 10))
