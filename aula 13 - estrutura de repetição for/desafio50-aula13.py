@@ -10,4 +10,6 @@ for c in range(1, 7):
     if n % 2 == 0:
         soma += n
         cont += 1
-print('Você informou {} números pares e a soma foi {}'.format(cont, soma))
+        print('Você informou {} números pares e a soma foi {}'.format(cont, soma))
+else:
+    print('Você não digitou nenhum número par.')
