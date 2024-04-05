@@ -11,9 +11,3 @@ for c in range(1, 7):
         cont += 1
         soma += n
 print('Você informou {} números pares e a soma foi {}'.format(cont, soma))
-
-
-
-
-
-
