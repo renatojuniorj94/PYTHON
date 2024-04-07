@@ -33,7 +33,7 @@ else:
 
 soma = 0
 cont = 0
-tem_impar = False
+tem_par = True
 
 for c in range(1, 7):
     n = int(input('Digite o {}º número inteiro: '.format(c)))
@@ -41,9 +41,9 @@ for c in range(1, 7):
         cont += 1
         soma += n
     else:
-        tem_impar = True
+        tem_par = False
 
-if tem_impar:
+if tem_par:
     print('Você informou {} números pares e a soma foi {}'.format(cont, soma))
 else:
-    print('Você não digitou nenhum número ímpar')
+    print('Você não digitou nenhum número par')
