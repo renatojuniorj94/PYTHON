@@ -9,6 +9,6 @@ print('=' * 30)
 termo = int(input('Digite o termo: '))
 razão = int(input('Digite a razão: '))
 decimo = termo + (10 - 1) * razão #Ou (10)
-for c in range(termo, decimo + razão, razão):
+for c in range(termo, decimo + razão, razão): #Se acima for (10), usamos: (termo, decimo, razão)
     print('{}'.format(c), end=' ➝ ')
 print('FIM')
