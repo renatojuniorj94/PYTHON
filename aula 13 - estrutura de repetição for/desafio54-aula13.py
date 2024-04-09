@@ -16,7 +16,7 @@ for c in range(1, 8):
 print('Ao todo tivemos {} pessoas maiores de idade.'.format(maior_idade))
 
 if menor_idade > 0:
-    print('E também tivemos {} pessoas menores de idade.'.format(menor_idade))
+    print('E também tivemos {} pessoa(s) menores de idade.'.format(menor_idade))
 else:
     print('Na lista não consta nenhum menor de idade.')
 
