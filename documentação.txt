@@ -132,7 +132,9 @@ Para tirar as configurações >
 
 https://docs.python.org/pt-br/3/tutorial/controlflow.html#for-statements
 
-Conhecido como laço de repetição ou iteração.
+Conhecido como laço de repetição ou iteração, ou estrutura de repetição com variável de controle.
 
-------------------aula 14---------------
+------------------Aula 14 - Estrutura de repetição while---------------
+
+Conhecido como estrutura de repetição com teste lógico
 
