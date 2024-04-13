@@ -136,5 +136,7 @@ Conhecido como laço de repetição ou iteração, ou estrutura de repetição c
 
 ------------------Aula 14 - Estrutura de repetição while---------------
 
+https://docs.python.org/pt-br/3/reference/compound_stmts.html#while
+
 Conhecido como estrutura de repetição com teste lógico
 
