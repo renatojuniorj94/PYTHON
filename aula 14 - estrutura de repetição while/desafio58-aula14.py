@@ -7,15 +7,22 @@ necessários para vencer.
 from random import randint
 from time import sleep
 
-computador = randint(0, 10)
-print('=--' * 20)
-print('Vou pensar em um número entre 0 e 10. Tente adivinhar...')
-print('=--' * 20)
+print('-=-' * 20)
+print('Vou pensar em número entre 0 e 10. Tente adivinhar...')
+print('-=-' * 20)
 jogador = int(input('Em que número eu pensei? '))
+computador = randint(0, 10)
+contador = 0
 print('PROCESSANDO...')
 sleep(3)
-if jogador == computador:
-    print('Parabéns! Você conseguiu me vencer!')
-else:
-    print('Ganhei! Eu pensei no número {} e não no {}!'.format(computador, jogador))
 
+while computador != jogador:
+    print('Você errou! Eu digitei {} e você digitou {}.'.format(computador, jogador))
+    computador = randint(0, 10)
+    jogador = int(input('Em que número eu pensei? (de 0 a 10) '))
+    print('PROCESSANDO...')
+    sleep(1)
+    contador += 1
+    if jogador == computador:
+        print('Parabéns! Você ganhou! Eu digitei {} e você digitou {}'.format(computador, jogador))
+print('Você precisou de {} tentativas para acertar.'.format(contador + 1))
