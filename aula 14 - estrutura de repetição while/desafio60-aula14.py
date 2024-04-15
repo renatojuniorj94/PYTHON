@@ -4,3 +4,10 @@ Ex:
 5! = 5 x 4 x 3 x 2 x 1 = 120
 (Fazer esse desafio com while e com for)
 '''
+
+n = int(input('Digite um número: '))
+contador = 0
+
+while n > 0:
+    fat = n * (n - 1)
+    print(fat)
