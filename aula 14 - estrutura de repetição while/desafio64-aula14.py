@@ -4,3 +4,10 @@ só vai parar quando o usuário digitar o valor 999, que é a condição de para
 No final mostre quantos números foram digitados e qual foi a soma entre eles
 (desconsiderando o flag)
 '''
+
+num = int(input('Digite um número inteiro: '))
+contador = 0
+while num != 999:
+    num = int(input('Digite um número inteiro: '))
+    contador += 1
+print('Fim\nVocê solicitou {} números.'.format(contador))
