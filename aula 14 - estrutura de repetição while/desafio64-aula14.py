@@ -5,9 +5,15 @@ No final mostre quantos números foram digitados e qual foi a soma entre eles
 (desconsiderando o flag)
 '''
 
-num = int(input('Digite um número inteiro: '))
+num = int(input('Digite um número(999 para parar): '))
 contador = 0
+soma = 0
 while num != 999:
-    num = int(input('Digite um número inteiro: '))
+    #contador fica responsável por continuar o loop, enquanto o usuário não digita 999
     contador += 1
-print('Fim\nVocê solicitou {} números.'.format(contador))
+    #soma fica responsável por somar os números digitados
+    soma += num
+    #jogamos a variável 'num' por último para não incluir 999 na 'variável' soma
+    num = int(input('Digite um número(999 para parar): '))
+print('Você digitou {} números e a soma entre eles foi {}'.format(contador, soma))
+
