@@ -65,3 +65,10 @@ while o != 5:
                       '[5] Sair do programa\n>>> '))
 print('Obrigado por usar nosso sistema, até breve!')
 exit()
+
+#Correto! :D
+
+#Outra maneira de fazer:
+
+n1 = int(input('Digite o primeiro valor: '))
+n2 = int(input('Digite o segundo valor: '))
