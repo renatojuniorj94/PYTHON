@@ -140,3 +140,16 @@ https://docs.python.org/pt-br/3/reference/compound_stmts.html#while
 
 Conhecido como estrutura de repetição com teste lógico
 
+---------------Aula 15 - Interrompendo repetições While-------------------
+Lógica                    |   Prática
+Enquanto Verdadeiro:      |   While True:
+    se (houver)bloco      |     if (houver)bloco
+        passo             |         passo
+    se (não houver)bloco  |     if (não houver)bloco
+        pula              |         pula
+    se (houver)moeda      |     if (houver)moeda
+        pega              |         pega
+    se (houver)troféu     |     if (houver)troféu
+        pula              |         pula
+        *Interrompa*      |         *break*
+Pega                      |   Pega
