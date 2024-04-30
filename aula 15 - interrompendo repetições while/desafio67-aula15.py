@@ -6,11 +6,16 @@ print('=' * 30)
 print(f'{'Desafio Tabuada':^30}')
 print('=' * 30)
 
-num = int(input('Digite um número para a tabuada: '))
-tab = 1
 while True:
-    print(f'{num} x {tab} = {num * tab}')
-    tab += 1
-    if tab > 10:
+    num = int(input('Digite um número para a tabuada: '))
+    print('—' * 30)
+    tab = 1
+    if num < 0:
         break
+    while tab < 11:
+        print(f'{num} x {tab} = {num * tab}')
+        tab += 1
+    print('—' * 30)
+print('PROGRAMA TABUADA ENCERRADO. Volte sempre!')
 
+#Feito :D
