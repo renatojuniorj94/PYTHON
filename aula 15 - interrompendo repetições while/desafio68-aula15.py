@@ -12,7 +12,14 @@ resultado = bool
 qtd_vit = 0
 while True:
     jogador = int(input('Digite um valor [De 0 a 10]: '))
+    while jogador < 0 or jogador > 10:
+        print('Número\033[1;43m INVÁLIDO!\033[m Tente novamente.')
+        jogador = int(input('Digite um valor [De 0 a 10]: '))
     jog_ip = str(input('Par ou Ímpar? [P/I] ')).upper().strip()[0]
+    while jog_ip not in ['P', 'I']:
+        print('Opção\033[1;43m INVÁLIDA!\033[m Tente novamente.')
+        jogador = int(input('Digite um valor [De 0 a 10]: '))
+        jog_ip = str(input('Par ou Ímpar? [P/I] ')).upper().strip()[0]
     print('—' * 60)
     comp_ip = par_imp = str
     computador = random.randint(0, 10)
