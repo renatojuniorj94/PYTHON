@@ -13,6 +13,6 @@ while True:
         break
     contador += 1
     soma += num
-    if num == 999:
-        break
 print(f'Você digitou {contador} números e a soma entre eles foi {soma}')
+
+#Correto! :D
