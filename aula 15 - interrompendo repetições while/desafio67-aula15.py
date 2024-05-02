@@ -9,13 +9,18 @@ print('=' * 30)
 while True:
     num = int(input('Digite um número para a tabuada: '))
     print('—' * 30)
-    tab = 1
     if num < 0:
         break
+    tab = 1
     while tab < 11:
         print(f'{num} x {tab} = {num * tab}')
         tab += 1
     print('—' * 30)
 print('PROGRAMA TABUADA ENCERRADO. Volte sempre!')
 
-#Feito :D
+#Correto! :D
+#Outra maneira de fazer:
+#No laço de repetição acima 'while tab < 11:', podemos substituir por um laço de repetição for
+'''for tab in range(1, 11):
+    print(f'{num} x {tab} = {num * tab}')
+print('—' * 30)'''
