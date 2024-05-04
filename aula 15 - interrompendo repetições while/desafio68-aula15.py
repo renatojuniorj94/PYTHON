@@ -18,26 +18,21 @@ while True:
     jog_ip = str(input('Par ou Ímpar? [P/I] ')).upper().strip()[0]
     while jog_ip not in ['P', 'I']:
         print('Opção\033[1;43m INVÁLIDA!\033[m Tente novamente.')
-        jogador = int(input('Digite um valor [De 0 a 10]: '))
         jog_ip = str(input('Par ou Ímpar? [P/I] ')).upper().strip()[0]
     print('—' * 60)
     comp_ip = par_imp = str
     computador = random.randint(0, 10)
     soma = jogador + computador
-
     if jog_ip == 'I':
         comp_ip = 'P'
     elif jog_ip == 'P':
         comp_ip = 'I'
-
     if soma % 2 == 0:
         par_imp = 'PAR'
     else:
         par_imp = 'ÍMPAR'
-
     print(f'Você jogou {jogador} e o computador {computador}. Total de {soma} deu {par_imp}')
     print('—' * 60)
-
     vitoria = 'Você \033[1;32mVENCEU\033[m!\nVamos jogar novamente...'
     derrota = 'Você \033[1;31mPERDEU\033[m!'
     if jog_ip == 'P' and par_imp == 'PAR':
@@ -55,3 +50,18 @@ while True:
         print('=-' * 30 + '=')
         print(f'\033[41mGAME OVER\033[m! Você venceu {qtd_vit} vezes.')
         break
+
+#Correto! :D
+#Outra maneira de fazer
+
+'''
+from random import randint
+v = 0
+while True:
+    jogador = int(input('Diga um valor: '))
+    computador = randint(0, 10)
+    total = jogador + computador
+    tipo = ' '
+    while tipo not in 'PI':
+        tipo = str(input('Par ou Ímpar? [P/I] ')).strip().upper()[0]
+'''
