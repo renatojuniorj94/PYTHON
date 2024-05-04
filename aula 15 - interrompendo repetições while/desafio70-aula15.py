@@ -6,7 +6,7 @@ B - Quantos produtos custam mais de R$ 1000.
 C - Qual é o nome do produto mais barato.
 '''
 
-total = mil = valor_barato = cont = 0
+total = mil = mais_barato = cont = 0
 nome_barato = ''
 while True:
     produto = str(input('Nome do produto: ')).strip()
@@ -14,12 +14,12 @@ while True:
     total += preço
     cont += 1
     # Simplificando o bloco abaixo
-    if cont == 1 or preço < valor_barato:
-        valor_barato = preço
+    if cont == 1 or preço < mais_barato:
+        mais_barato = preço
         nome_barato = produto
     '''if cont == 1:
         mais_barato = preço
-        barato = produto
+        nome_barato = produto
     else:
         if preço < mais_barato:
             mais_barato = preço
@@ -29,13 +29,13 @@ while True:
     continua = str(input('Quer continuar? [S/N] ')).upper().strip()[0]
     if continua == 'N':
         break
-    while continua not in ['S', 'N']:
+    while continua not in 'SN':
         print('Opção \033[1;43mINVÁLIDA!\033[m')
         continua = str(input('Quer continuar? [S/N] ')).upper().strip()[0]
     print('—' * 30)
 print('—' * 10 + 'FIM DO PROGRAMA' + '—' * 10)
 print(f'O total da compra foi R$ {total}')
 print(f'Temos {mil} produtos custando mais de R$ 1000')
-print(f'O produto mais barato foi {barato} que custa R$ {mais_barato}')
+print(f'O produto mais barato foi {nome_barato} que custa R$ {mais_barato}')
 
 #Correto! :D
