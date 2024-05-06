@@ -153,3 +153,13 @@ Enquanto Verdadeiro:      |   While True:
         pula              |         pula
         *Interrompa*      |         *break*
 Pega                      |   Pega
+
+-----------------Aula 16 - Tuplas (Variáveis compostas)-----------------
+
+Podem começar com parenteses '(tupla)', colchetes '[lista]' ou chaves '{dicionário}'
+Tuplas são IMUTÁVEIS.
+Para mudar algum item em uma tupla, temos que parar o programa o modificar o item na criação da variável.
+
+As tuplas ficam entre parenteses '()', mas nas versões mais atuais de python não é necessário
+colocar entre parenteses.
+Ex: lanche = ('hambúrguer', 'suco', 'pizza', 'pudim')
