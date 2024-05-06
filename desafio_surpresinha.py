@@ -1,11 +1,12 @@
 #versão 1.0
 import random
+
 quant_num = 0
 modalidade = ''
 loteria = int(input('Qual loteria deseja apostar?\n'
-                        'Mega-sena [1]\n'
-                        'Quina [2]\n'
-                        'Lotofacil [3]\n'))
+                    'Mega-sena [1]\n'
+                    'Quina [2]\n'
+                    'Lotofacil [3]\n'))
 while True:
     if loteria <= 0 or loteria > 3:
         print('Opção inválida!')
@@ -29,5 +30,6 @@ while True:
         num_unicos = random.sample(range(1, 26), quant_num)
         break
 #Ordenando os números em ordem crescente
+print(num_unicos)
 num_unicos.sort()
 print(num_unicos)
