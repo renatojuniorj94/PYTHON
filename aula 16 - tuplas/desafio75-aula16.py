@@ -23,7 +23,7 @@ if cont >= 1:
 else:
     print('O número 9 não aparece na lista.')
 if 3 in tupla:
-    print(f'O numero 3 aparece a primeira vez na posição {tupla.index(3)}.')
+    print(f'O numero 3 aparece a primeira vez na {tupla.index(3) + 1}ª posição.')
 else:
     print('O número 3 não aparece em nenhuma posição.')
 print(f'Os números pares foram {par}')
