@@ -21,3 +21,14 @@ for c in range(1, 6):
 print('Os números sorteados foram:', tupla[0], tupla[1], tupla[2], tupla[3], tupla[4])
 print(f'O maior valor sorteado foi {maior}')
 print(f'O menor valor sorteado foi {menor}')
+
+#Correto! :D
+#Outra maneira de fazer:
+
+números = (randint(1, 10), randint(1, 10), randint(1, 10),
+           randint(1, 10), randint(1, 10), )
+print('Os valores sorteados foram: ', end='')
+for n in números:
+    print(f'{n} ', end='')
+print(f'\nO maior valor sorteado foi {max(números)}')
+print(f'O menor valor sorteado foi {min(números)}')
