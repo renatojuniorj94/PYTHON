@@ -6,5 +6,7 @@ posições na tabela
 num = []
 for c in range(0, 5):
     num.append(int(input('Digite um número: ')))
+print(f'O maior valor digitado foi {max(num)} e menor valor digitado foi {min(num)}')
+for c, v in enumerate(num):
+    print(f'Na posição {c} encontrei o valor {v}!')
 
-print(num)
