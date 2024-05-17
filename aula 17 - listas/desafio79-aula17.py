@@ -4,13 +4,14 @@ e cadastre-os em uma lista. Caso o número já exista lá dentro, ele não será
 No final, serão exibidos todos os valores únicos digitados, em ordem crescente.
 """
 
-num = [int(input('Digite um número: '))]
-print('Valor adicionado com sucesso...')
+num = []
 while True:
+    num.append(int(input('Digite um número: ')))
+    print('Valor adicionado com sucesso...')
     continuar = input('Deseja continuar? [S/N] ').upper().strip()[0]
-    if continuar == 'S':
-        num = [int(input('Digite um número: '))]
-    elif continuar not in 'SN':
+    while continuar not in 'SN':
         print('Opção inválida!')
-    else:
+        continuar = input('Deseja continuar? [S/N] ').upper().strip()[0]
+    if continuar == 'N':
         break
+print(num)
