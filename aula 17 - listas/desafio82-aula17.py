@@ -9,18 +9,18 @@ num = []
 par = []
 impar = []
 while True:
-    num = int(input('Digite um número: '))
-    num += num
-    if num % 2 == 0:
-        par.append(num)
+    n = int(input('Digite um número: '))
+    num.append(n)
+    if n % 2 == 0:
+        par.append(n)
     else:
-        impar.append(num)
-    print('par', par)
-    print('impar', impar)
-    print(num)
-    '''continuar = str(input('Deseja continuar? [S/N] ')).upper().strip()[0]
-    while continuar not in 'S' or 'N':
+        impar.append(n)
+    continuar = input('Deseja continuar? [S/N] ').upper().strip()[0]
+    while continuar not in 'SN':
         print('Opção inválida!')
-        continuar = input('Deseja continuar? [S/N] ')
+        continuar = input('Deseja continuar? [S/N] ').upper().strip()[0]
     if continuar == 'N':
-        break'''
+        break
+print(f'Os números pares digitados foram: {par}')
+print(f'Os números impares digitados foram: {impar}')
+print(f'Todos os número digitados: {num}')
