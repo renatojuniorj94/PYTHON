@@ -22,3 +22,18 @@ num.sort()
 print(f'Você digitou os valores {num}')
 
 #Correto! :D
+#Outra maneira de fazer...
+
+números = list()
+while True:
+    nu = int(input('Digite um valor: '))
+    if nu not in números:
+        números.append(nu)
+        print('Valor adicionado com sucesso...')
+    else:
+        print('Valor duplicado! Não vou adicionar...')
+    conti = str(input('Quer continuar? [S/N] '))
+    if conti in 'Nn':
+        break
+números.sort()
+print(f'Você digitou os valores {números}')
