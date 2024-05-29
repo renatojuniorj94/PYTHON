@@ -20,3 +20,5 @@ while True:
         break
 num.sort()
 print(f'Você digitou os valores {num}')
+
+#Correto! :D
