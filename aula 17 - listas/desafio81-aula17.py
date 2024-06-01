@@ -24,3 +24,5 @@ else:
 print(f'Foram digitados {contador} números.')
 valores.sort(reverse=True)
 print(valores)
+
+#correto! :D
