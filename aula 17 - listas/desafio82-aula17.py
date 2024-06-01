@@ -21,6 +21,18 @@ while True:
         continuar = input('Deseja continuar? [S/N] ').upper().strip()[0]
     if continuar == 'N':
         break
+par.sort()
+impar.sort()
+num.sort()
 print(f'Os números pares digitados foram: {par}')
 print(f'Os números impares digitados foram: {impar}')
 print(f'Todos os número digitados: {num}')
+
+#Correto! :D
+#Outra maneira de adicionar os números nas listas separadas
+
+for i, v in enumerate(num):
+    if v % 2 == 0:
+        par.append(v)
+    elif v % 2 == 1:
+        impar.append(v)
