@@ -19,3 +19,5 @@ if len(pilha) == 0:
     print('Sua expressão está correta!')
 else:
     print('Sua expressão está errada!')
+
+#Correto! :D
