@@ -215,5 +215,3 @@ Listas dentro de listas > [:]
 
 pessoas = [ ['Pedro', 25], ['Maria', 19], ['João', 32] ]
 pessoas >         0              1              2
-
-#Paramos a aula com 19:37
