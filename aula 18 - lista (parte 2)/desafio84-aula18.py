@@ -7,6 +7,8 @@ C - Uma listagem com as pessoas mais leves.
 '''
 
 pessoas = []
+maisPeso = []
+menosPeso = []
 totPessoas = 0
 while True:
     nome = str(input('Nome: '))
@@ -22,3 +24,4 @@ while True:
         continuar = input('Deseja continuar? [S/N] ').upper().strip()[0]
 
 print(pessoas)
+print(f'Ao total tivemos {totPessoas} cadastradas.')
