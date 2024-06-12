@@ -165,6 +165,7 @@ colocar entre parenteses.
 Ex: lanche = ('hambúrguer', 'suco', 'pizza', 'pudim')
 
 ----------------Aula 17 - Listas (Variáveis compostas)---------------------
+https://docs.python.org/pt-br/3/tutorial/datastructures.html
 
 Listas são MUTÁVEIS
 

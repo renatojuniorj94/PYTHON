@@ -44,3 +44,7 @@ for p in pessoas:
     if p[1] == menorPeso:
         print(f'[{p[0]}] ', end='')
 print()
+
+#Correto! :D
+
+#Ao exibir a quantidades de pessoas cadastradas, podemos o contador por len(temporário).
