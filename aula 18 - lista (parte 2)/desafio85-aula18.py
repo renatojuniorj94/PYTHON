@@ -15,3 +15,5 @@ num[0].sort()
 num[1].sort()
 print(f'Os valores pares digitados foram: {num[0]}')
 print(f'Os valores ímpares digitados foram: {num[1]}')
+
+#Correto! :D
