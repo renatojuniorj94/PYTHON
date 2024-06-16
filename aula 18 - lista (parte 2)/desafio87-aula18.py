@@ -32,3 +32,5 @@ for linha in range(0, 3):
     for c in range(0, 3):
         print(f'[{matriz[linha][c]:^5}]', end='')
     print()
+
+#Correto! :D
