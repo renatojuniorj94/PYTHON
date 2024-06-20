@@ -61,4 +61,16 @@ brasil.append(estado1)
 brasil.append(estado2)
 print(brasil[0]['uf'])
 
-#Paramos com 25 minutos
+estado = dict()
+país = list()
+for c in range(0, 3):
+    estado['uf'] = str(input('Unidade federativa: '))
+    estado['sigla'] = str(input('Sigla do estado: '))
+    #Em dicionário não podemos usar fatiamento [:], temos que usar copy()
+    país.append(estado.copy())
+print(país)
+for e in país:
+    print(e)
+for e in país:
+    for k, v in e.items():
+        print(f'O campo {k} tem valor {v}')
