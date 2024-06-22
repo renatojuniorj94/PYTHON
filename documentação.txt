@@ -227,3 +227,5 @@ nome = dict()
 .append() não funciona em dicionários
 
 Em dicionários temos valor, chave e item.
+
+--------------Aula 20---------------
