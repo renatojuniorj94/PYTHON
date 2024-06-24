@@ -228,4 +228,3 @@ nome = dict()
 
 Em dicionários temos valor, chave e item.
 
---------------Aula 20---------------
