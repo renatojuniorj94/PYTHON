@@ -4,15 +4,14 @@ a situação em um dicionário. No final, mostre o conteúdo da estrutura na tel
 """
 aluno = dict()
 boletim = list()
-for c in range(1):
-    aluno['nome'] = str(input('Nome: '))
-    aluno['media'] = float(input('Média: '))
+aluno['nome'] = str(input('Nome: '))
+aluno['media'] = float(input('Média: '))
 boletim.append(aluno.copy())
-for a in aluno.items():
-    print(f'Nome do aluno(a) é igual a {a}')
-    print(f'Média é igual a {m}')
-'''if m < 5:
-    print('REPROVADO!')
+print(f'Nome do aluno(a) é \033[4;34;107m{boletim[0]['nome']}\033[m')
+print(f'Média é igual a {boletim[0]['media']}')
+if boletim[0]['media'] < 5:
+    print('\033[1;31mREPROVADO!\033[m')
+elif boletim[0]['media'] < 7:
+    print('\033[1;33mRECUPERAÇÃO!\033[m')
 else:
-    print('APROVADO!')'''
-print(boletim)
+    print('\033[1;32mAPROVADO!\033[m')
