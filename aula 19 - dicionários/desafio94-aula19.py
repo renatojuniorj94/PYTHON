@@ -17,14 +17,17 @@ while True:
         mulheres += 1
     while pessoa['sexo'] not in 'MmFf':
         print('Opção inválida!')
-        pessoa['sexo'] = str(input('Sexo [M/F]: '))
+        pessoa['sexo'] = str(input('Sexo [M/F]: ')).strip().upper()[0]
+        if pessoa['sexo'] == 'F':
+            mulheres += 1
     pessoa['idade'] = int(input('Idade: '))
     todas_as_idades += pessoa['idade']
     lista.append(pessoa.copy())
     continuar = str(input('Deseja continuar? [S/N] ')).strip().upper()[0]
     if continuar == 'N':
         break
+media = todas_as_idades / len(lista)
 print(f'Total de pessoas cadastradas: {len(lista)}')
-print(f'Média de idade: {todas_as_idades / len(lista)}')
+print(f'Média de idade: {media}')
 print(f'Total de mulheres: {mulheres}')
 print(lista)
