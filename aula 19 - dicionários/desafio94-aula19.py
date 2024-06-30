@@ -27,7 +27,11 @@ while True:
     if continuar == 'N':
         break
 media = todas_as_idades / len(lista)
+print('-=' * 40)
 print(f'Total de pessoas cadastradas: {len(lista)}')
 print(f'Média de idade: {media}')
 print(f'Total de mulheres: {mulheres}')
-print(lista)
+print('Pessoas com idade acima da média:')
+for p in lista:
+    if p['idade'] >= media:
+        print(f'Nome: {p['nome']}, Idade: {p['idade']}')
