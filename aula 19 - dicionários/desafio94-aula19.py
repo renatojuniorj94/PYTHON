@@ -7,3 +7,31 @@ B - A média de idade do grupo
 C - Uma lista com todas as mulheres
 D - Uma lista com todas as pessoas com idade acima da média
 """
+pessoa = dict()
+lista = list()
+todas_as_idades = mulheres = 0
+while True:
+    pessoa['nome'] = str(input('Nome: '))
+    pessoa['sexo'] = str(input('Sexo [M/F]: ')).strip().upper()[0]
+    if pessoa['sexo'] == 'F':
+        mulheres += 1
+    while pessoa['sexo'] not in 'MmFf':
+        print('Opção inválida!')
+        pessoa['sexo'] = str(input('Sexo [M/F]: ')).strip().upper()[0]
+        if pessoa['sexo'] == 'F':
+            mulheres += 1
+    pessoa['idade'] = int(input('Idade: '))
+    todas_as_idades += pessoa['idade']
+    lista.append(pessoa.copy())
+    continuar = str(input('Deseja continuar? [S/N] ')).strip().upper()[0]
+    if continuar == 'N':
+        break
+media = todas_as_idades / len(lista)
+print('-=' * 40)
+print(f'Total de pessoas cadastradas: {len(lista)}')
+print(f'Média de idade: {media}')
+print(f'Total de mulheres: {mulheres}')
+print('Pessoas com idade acima da média:')
+for p in lista:
+    if p['idade'] >= media:
+        print(f'Nome: {p['nome']}, Idade: {p['idade']}')
