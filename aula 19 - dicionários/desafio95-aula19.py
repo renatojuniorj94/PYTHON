@@ -3,26 +3,20 @@ Aprimore o desafio 93 para que ele funcione com vários jogadores,
 incluindo um sistema de visualização de detalhes do aproveitamento de cada jogador
 """
 jogador = dict()
-lista = list()
-gols_por_partida = list()
-total_gols = 0
-while True:
-    jogador['nome'] = str(input('Nome do jogador: '))
-    jogador['partidas'] = int(input(f"Quantas partidas {jogador['nome']} jogou? "))
-    for partida in range(jogador['partidas']):
-        gols = int(input(f'Quantos gols na partida {partida + 1}? '))
-        gols_por_partida.append(gols)
-        jogador['gols por partida'] = gols_por_partida
-        total_gols += gols
-        jogador['total'] = total_gols
-        lista.append(jogador)
-    continuar = str(input('Deseja continuar? [S/N] ')).strip().upper()[0]
-    while continuar not in 'SN':
-        print('Opção inválida!')
-        continuar = str(input('Deseja continuar? [S/N] ')).strip().upper()[0]
-    if continuar == 'N':
-        break
-print(lista)
-print()
+partidas = list()
+jogador['nome'] = str(input('Nome do jogador: '))
+tot = int(input(f'Quantas partidas {jogador['nome']} jogou? '))
+for c in range(0, tot):
+    partidas.append(int(input(f'Quantos gols na partida {c + 1}? ')))
+jogador['gols'] = partidas[:]  # jogador['gols'] recebeu uma cópia de partidas.
+jogador['total'] = sum(partidas)
+print('-=' * 30)
 print(jogador)
-
+print('-=' * 30)
+for k, v in jogador.items():
+    print(f'O campo {k} tem o valor {v}')
+print('-=' * 30)
+print(f'O jogador {jogador['nome']} jogou {len(jogador['gols'])} partidas.')
+for i, v in enumerate(jogador['gols']):
+    print(f'    => Na partida {i + 1}, fez {v} gols.')
+print(f'Foi um total de {jogador['total']} gols')
