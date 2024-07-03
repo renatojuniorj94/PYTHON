@@ -1,0 +1,112 @@
+Desafio 001: Hello World!
+Desafio 002: Respondendo ao Usuário
+Desafio 003: Somando Dois Números
+Desafio 004: Dissecando uma Variável
+Desafio 005: Antecessor e Sucessor
+Desafio 006: Dobro, Triplo, Raiz Quadrada
+Desafio 007: Média Aritmética
+Desafio 008: Conversor de Medidas
+Desafio 009: Tabuada
+Desafio 010: Conversor de Moedas
+Desafio 011: Pintando Parede
+Desafio 012: Calculando Descontos
+Desafio 013: Reajuste Salarial
+Desafio 014: Conversor de Temperaturas
+Desafio 015: Aluguel de Carros
+Desafio 016: Quebrando um Número
+Desafio 017: Catetos e Hipotenusa
+Desafio 018: Seno, Cosseno e Tangente
+Desafio 019: Sorteando um Item na Lista
+Desafio 020: Sorteando uma Ordem na Lista
+Desafio 021: Tocando um MP3
+Desafio 022: Analisador de Textos
+Desafio 023: Separando Dígitos de um Número
+Desafio 024: Verificando as Primeiras Letras de um Texto
+Desafio 025: Procurando uma String dentro de outra
+Desafio 026: Primeira e Última Ocorrência de uma String
+Desafio 027: Primeiro e Último Nome de uma Pessoa
+Desafio 028: Jogo da Adivinhação v.1.0
+Desafio 029: Radar Eletrônico
+Desafio 030: Par ou Ímpar?
+Desafio 031: Custo da Viagem
+Desafio 032: Ano Bissexto
+Desafio 033: Maior e Menor Valores
+Desafio 034: Aumentos Múltiplos
+Desafio 035: Analisando Triângulo v1.0
+Desafio 036: Aprovando Empréstimo
+Desafio 037: Conversor de Bases Numéricas
+Desafio 038: Comparando Números
+Desafio 039: Alistamento Militar
+Desafio 040: Aquele Clássico da Média
+Desafio 041: Classificando Atletas
+Desafio 042: Analisando Triângulos v2.0
+Desafio 043: Índice de Massa Corporal
+Desafio 044: Gerenciador de Pagamentos
+Desafio 045: Jogo da Adivinhação v.2.0
+Desafio 046: Contagem Regressiva
+Desafio 047: Contagem de Pares
+Desafio 048: Somando Ímpares Múltiplos de Três
+Desafio 049: Tabuada v.2.0
+Desafio 050: Soma dos Pares
+Desafio 051: Progressão Aritmética
+Desafio 052: Números Primos
+Desafio 053: Detector de Palíndromo
+Desafio 054: Grupo da Maioridade
+Desafio 055: Maior e Menor da Sequência
+Desafio 056: Analisador Completo
+Desafio 057: Validação de Dados
+Desafio 058: Jogo da Adivinhação v.2.0
+Desafio 059: Criando um Menu de Opções
+Desafio 060: Cálculo do Fatorial
+Desafio 061: Progressão Aritmética v2.0
+Desafio 062: Super Progressão Aritmética
+Desafio 063: Sequência de Fibonacci v1.0
+Desafio 064: Tratando Vários Valores v1.0
+Desafio 065: Maior e Menor Valores v2.0
+Desafio 066: Vários Números com Flag
+Desafio 067: Tabuada v3.0
+Desafio 068: Jogo do Par ou Ímpar
+Desafio 069: Análise de Dados do Grupo
+Desafio 070: Estatísticas em Produtos
+Desafio 071: Simulador de Caixa Eletrônico
+Desafio 072: Número por Extenso
+Desafio 073: Tuplas com Times de Futebol
+Desafio 074: Maior e Menor Valores em Tupla
+Desafio 075: Análise de Dados em Tupla
+Desafio 076: Lista de Preços com Tupla
+Desafio 077: Contando Vogais em Tupla
+Desafio 078: Maior e Menor Valores na Lista
+Desafio 079: Valores Únicos na Lista
+Desafio 080: Lista Ordenada sem Repetições
+Desafio 081: Extraindo Dados de uma Lista
+Desafio 082: Dividindo Valores em Várias Listas
+Desafio 083: Validando Expressões Matemáticas
+Desafio 084: Lista Composta e Análise de Dados
+Desafio 085: Listas com Pares e Ímpares
+Desafio 086: Matriz em Python
+Desafio 087: Mais sobre Matriz em Python
+Desafio 088: Palpites para a Mega Sena
+Desafio 089: Boletim com Listas Compostas
+Desafio 090: Dicionário em Python
+Desafio 091: Jogo de Dados em Python
+Desafio 092: Cadastro de Trabalhador em Python
+Desafio 093: Cadastro de Jogador de Futebol
+Desafio 094: Unindo Dicionários e Listas
+Desafio 095: Aprimorando os Dicionários
+Desafio 096: Função que Calcula Área
+Desafio 097: Função que Desenha Linha
+Desafio 098: Função de Contador
+Desafio 099: Função Maior
+Desafio 100: Funções para Sortear e Somar
+Desafio 101: Funções para Votação
+Desafio 102: Função para Fatorial
+Desafio 103: Ficha do Jogador
+Desafio 104: Validando Entrada de Dados em Python
+Desafio 105: Analisando e Gerando Dicionários
+Desafio 106: Sistema Interativo de Ajuda em Python
+Desafio 107: Exercitando Módulos em Python
+Desafio 108: Formatando Moedas em Python
+Desafio 109: Formatando Moedas em Python v2.0
+Desafio 110: Reduzindo Ainda Mais seu Programa
+Desafio 111: Transformando Módulos em Pacotes
+Desafio 112: Entrada de Dados Monetários
