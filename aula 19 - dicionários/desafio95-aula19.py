@@ -10,6 +10,7 @@ while True:
     partidas.clear()
     jogador['nome'] = str(input('Nome do jogador: '))
     tot = int(input(f'Quantas partidas {jogador['nome']} jogou? '))
+    jogador['partidas'] = tot
     for c in range(0, tot):
         partidas.append(int(input(f'Quantos gols na partida {c + 1}? ')))
     jogador['gols'] = partidas[:]  # jogador['gols'] recebeu uma cópia de partidas.
@@ -31,3 +32,12 @@ print('—' * 55)
 print(lista_jogadores)
 while True:
     cod_jogador = int(input('Mostrar dados de qual jogador? (999 para parar) '))
+    if cod_jogador == 999:
+        break
+    while cod_jogador > len(lista_jogadores) or cod_jogador < len(lista_jogadores) - 1:
+        print('Opção inválida!')
+        cod_jogador = int(input('Mostrar dados de qual jogador? (999 para parar) '))
+    nome_sel = lista_jogadores[cod_jogador - 1]['nome']
+    print(f'Levantamento do jogador {nome_sel}')
+    for c, d in enumerate(lista_jogadores[cod_jogador - 1]['gols']):
+        print(f'No jogo {c} fez {d} gols.')
