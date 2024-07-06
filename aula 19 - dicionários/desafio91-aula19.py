@@ -6,6 +6,7 @@ em ordem, sabendo que o vencedor tirou o maior número no dado.
 from random import randint
 from time import sleep
 from operator import itemgetter
+# https://docs.python.org/pt-br/3/library/operator.html
 jogador = {'jogador 1': randint(1, 6),
            'jogador 2': randint(1, 6),
            'jogador 3': randint(1, 6),
