@@ -34,10 +34,10 @@ while True:
     cod_jogador = int(input('Mostrar dados de qual jogador? (999 para parar) '))
     if cod_jogador == 999:
         break
-    while cod_jogador > len(lista_jogadores) or cod_jogador < len(lista_jogadores) - 1:
+    if cod_jogador > len(lista_jogadores) or cod_jogador < 1:
         print('Opção inválida!')
-        cod_jogador = int(input('Mostrar dados de qual jogador? (999 para parar) '))
-    nome_sel = lista_jogadores[cod_jogador - 1]['nome']
-    print(f'Levantamento do jogador {nome_sel}')
-    for c, d in enumerate(lista_jogadores[cod_jogador - 1]['gols']):
-        print(f'No jogo {c} fez {d} gols.')
+    else:
+        nome_sel = lista_jogadores[cod_jogador - 1]['nome']
+        print(f'Levantamento do jogador {nome_sel}')
+        for c, d in enumerate(lista_jogadores[cod_jogador - 1]['gols']):
+            print(f'No jogo {c + 1} fez {d} gols.')
