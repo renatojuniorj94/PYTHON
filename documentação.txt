@@ -217,7 +217,7 @@ Listas dentro de listas > [:]
 pessoas = [ ['Pedro', 25], ['Maria', 19], ['João', 32] ]
 pessoas >         0              1              2
 
----------------------Aula 49 - Dicionários--------------------
+---------------------Aula 19 - Dicionários--------------------
 https://docs.python.org/pt-br/3/tutorial/datastructures.html#dictionaries
 
 Dicionários são identificados por {}
@@ -228,3 +228,7 @@ nome = dict()
 
 Em dicionários temos valor, chave e item.
 
+----------------------Aula 20 - Funções--------------------
+Funções são rotinas
+
+Entre a definição de uma função e o programa principal, dar um espaço de 2 linhas
