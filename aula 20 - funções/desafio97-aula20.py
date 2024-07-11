@@ -26,3 +26,4 @@ escreva('  CLUBE DE REGATAS DO FLAMENGO  ')
 escreva('  CURSO DE PYTHON NO YOUTUBE (CURSO EM VÍDEO)  ')
 
 #Correto! :D
+#Outra maneira de fazer...
