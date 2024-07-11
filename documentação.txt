@@ -229,6 +229,8 @@ nome = dict()
 Em dicionários temos valor, chave e item.
 
 ----------------------Aula 20 - Funções--------------------
+https://docs.python.org/pt-br/3/tutorial/controlflow.html#defining-functions
+
 Funções são rotinas
 
 Entre a definição de uma função e o programa principal, dar um espaço de 2 linhas
