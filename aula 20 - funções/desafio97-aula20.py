@@ -8,11 +8,10 @@ Saída:
 Olá, mundo!
 ~~~~~~~~~~~
 """
-#ler = len(escreva)
 
 
 def escreva(msg):
-    for c in msg:
+    for c in msg:  # Não há necessidade em usar for nesse programa.
         ler = len(msg)
     print('~' * ler)
     print(msg)
@@ -27,3 +26,16 @@ escreva('  CURSO DE PYTHON NO YOUTUBE (CURSO EM VÍDEO)  ')
 
 #Correto! :D
 #Outra maneira de fazer...
+
+
+def escreva(msg):
+    tam = len(msg) + 4
+    print('~' * tam)
+    print(f'  {msg}')
+    print('~' * tam)
+
+
+# Programa principal
+escreva('Gustavo Guanabara')
+escreva('Curso de Python no Youtube')
+escreva('CeV')
