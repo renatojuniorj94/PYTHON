@@ -4,12 +4,9 @@ com valores inteiros.
 Seu programa tem que analisar todos os valores e dizer qual deles é o maior.
 """
 from time import sleep
-lista = list()
 
 
 def maior(*num):
-    lista.clear()
-    lista.append(num)
     bigger = 0
     print('-=' * 30)
     print('Analisando os valores passados...')
@@ -27,3 +24,5 @@ maior(4, 7, 0)
 maior(1, 2)
 maior(6)
 maior()
+
+#Correto! :D
