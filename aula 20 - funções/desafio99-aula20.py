@@ -3,17 +3,27 @@ Faça um programa que tenha uma função chamada maior(), que receba vários par
 com valores inteiros.
 Seu programa tem que analisar todos os valores e dizer qual deles é o maior.
 """
-from random import randint
-mini = randint(1, 100)
-maxi = randint(1, 100)
+from time import sleep
+lista = list()
 
 
 def maior(*num):
-    tamanho = len(num)
+    lista.clear()
+    lista.append(num)
+    bigger = 0
     print('-=' * 30)
     print('Analisando os valores passados...')
-    print(f'{num} foram informados {tamanho} valores ao todo.')
-    print(f'O maior valor informado foi .')
+    for valor in num:
+        print(f'{valor} ', end='')
+        sleep(0.5)
+        if valor > bigger:
+            bigger = valor
+    print(f'Foram informados {len(num)} valores ao todo.')
+    print(f'O maior valor informado foi {bigger}')
 
 
-maior(mini, maxi)
+maior(2, 9, 4, 5, 7, 1)
+maior(4, 7, 0)
+maior(1, 2)
+maior(6)
+maior()
