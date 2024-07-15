@@ -4,6 +4,7 @@ A primeira função vai sortear 5 números e vai colocá-los dentro da lista e a
 a soma entre todos os valores PARES sorteados pela função anterior.
 """
 from random import randint
+from time import sleep
 números = [
     randint(1, 10), randint(1, 10), randint(1, 10), randint(1, 10), randint(1, 10)
 ]
@@ -13,6 +14,7 @@ def sorteia():
     print(f'Sorteando {len(números)} valores da lista: ', end='')
     for num in números:
         print(num, end=' ')
+        sleep(0.3)
     print('PRONTO!')
 
 
