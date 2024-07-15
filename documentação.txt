@@ -75,6 +75,10 @@ https://docs.python.org/pt-br/3/library/index.html
 https://pypi.org/project/emoji/
 https://www.webfx.com/tools/emoji-cheat-sheet/
 
+import random
+print(random.randint(1, 60), random.randint(1, 60), random.randint(1, 60),
+      random.randint(1, 60), random.randint(1, 60), random.randint(1, 60))
+
 --------------Aula 9 - Manipulando texto----------
 
 https://docs.python.org/pt-br/3/library/string.html#format-string-syntax
