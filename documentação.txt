@@ -238,3 +238,27 @@ https://docs.python.org/pt-br/3/tutorial/controlflow.html#defining-functions
 Funções são rotinas
 
 Entre a definição de uma função e o programa principal, dar um espaço de 2 linhas
+
+----------------------Aula 21 - Funções (parte 2)----------------------
+
+-Interactive Help
+    -Dentro do python console digitamos 'help()', logos depois digitamos a funcionalidade, exemplo 'print'
+    e ele retorna uma explicação da funcionalidade. Para sair digitamos 'q' ou 'quit'.
+    -Dentro do próprio campo de script podemos colocar 'help(print)' e executar que ele retorna uma explicação.
+    -Podemos usar também print('funcionalidade'__doc__)
+
+-docstrings
+    -Fornecemos a documentação do nosso próprio código.
+
+-Parâmetros opcionais
+    -Se em uma função deixarmos um parâmetro em branco ele será ignorado sem apresentar
+    erro na execução do código.
+
+-Escopo de variáveis
+    -Quando uma variável é declarada dentro de uma função, laço de repetição ou semelhante, ele só pode
+    ser usado lá. (Variável local)
+    -Quando uma variável pode ser usada em todo programa, dentro ou fora de uma função
+    ou laço de repetição. (Variável global)
+
+-Retorno de resultados/valores (return)
+    -
