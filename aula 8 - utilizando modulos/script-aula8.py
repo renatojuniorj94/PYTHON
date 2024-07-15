@@ -15,10 +15,10 @@ print('A raiz de {} é igual a {}'.format(num, ceil(raiz)))
 
 import random
 print(random.randint(1, 60), random.randint(1, 60), random.randint(1, 60),
-      random.randint(1, 60),random.randint(1, 60), random.randint(1, 60))
+      random.randint(1, 60), random.randint(1, 60), random.randint(1, 60))
 
 #https://www.webfx.com/tools/emoji-cheat-sheet/
 #https://pypi.org/project/emoji/
 import emoji
 print(emoji.emojize('Olá mundo :smiling_face_with_sunglasses:'))
-print(emoji.emojize('Python is :winking_face:')) #O nome do codigo do emoji é shortcode.
+print(emoji.emojize('Python is :winking_face:'))  # O nome do código do emoji é shortcode.
