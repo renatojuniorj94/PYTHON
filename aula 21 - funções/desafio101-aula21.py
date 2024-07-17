@@ -14,9 +14,9 @@ def voto():
         print('Não pode votar')
     elif idade < 18:
         print('Voto opcional')
-    elif idade >= 18 or idade < 63:
+    elif idade < 63:
         print('Voto obrigatório!')
-    elif idade >= 63:
+    else:
         print('Não precisa votar')
 
 
