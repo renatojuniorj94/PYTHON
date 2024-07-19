@@ -10,15 +10,15 @@ def voto():
     global idade
     anoNasc = int(input('Ano de nascimento: '))
     idade = date.today().year - anoNasc
+    print(f'Com {idade} anos: ', end='')
     if idade < 16:
-        print('Não pode votar')
+        print('NÃO PODE VOTAR.')
     elif idade < 18:
-        print('Voto opcional')
+        print('VOTO OPCIONAL.')
     elif idade < 63:
-        print('Voto obrigatório!')
+        print('VOTO OBRIGATÓRIO.')
     else:
-        print('Não precisa votar')
+        print('NÃO PRECISAR VOTAR')
 
 
 voto()
-print(idade)
