@@ -7,10 +7,14 @@ não tenha sido informado corretamente.
 """
 
 
-def ficha(jogador=0, quant_gols=0):
-    jogador = str(input('Nome do jogador: '))
-    quant_gols = int(input('Número de gols: '))
-    print(f'O jogador {jogador} fez {quant_gols}gol(s) no campeonato.')
+def ficha(jogador, quant_gols):
+    if jogador == '':
+        jogador = '<desconhecido>'
+    if quant_gols == '':
+        quant_gols = 0
+    print(f'O jogador {jogador} fez {quant_gols} gol(s) no campeonato.')
 
 
-ficha()
+jogador = str(input('Nome do jogador: '))
+quant_gols = int(input('Número de gols: '))
+ficha(jogador, quant_gols)
