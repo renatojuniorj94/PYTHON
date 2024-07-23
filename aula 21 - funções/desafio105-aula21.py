@@ -8,3 +8,9 @@ alunos e vai retornar um dicionário com as seguintes informações:
 -A situação (opcional)
 Adicione também as docstrings da função.
 """
+
+
+def notas():
+
+
+notas()
