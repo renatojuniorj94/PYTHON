@@ -10,7 +10,21 @@ Adicione também as docstrings da função.
 """
 
 
-def notas():
+def notas(*n, sit=False):
+    """
+    —> Função para analisar notas e situações de vários alunos.
+    :param n:
+    :param sit:
+    :return:
+    """
+    boletim = dict()
+    len(n)
+    max(n)
+    min(n)
+    for c in n:
+        soma = 0
+        soma += c
+    media = soma / len(n)
 
 
 notas()
