@@ -18,9 +18,9 @@ def notas(*n, sit=False):
     :return:
     """
     boletim = dict()
-    len(n)
-    max(n)
-    min(n)
+    r[] = len(n)
+    r[] = max(n)
+    r[] = min(n)
     for c in n:
         soma = 0
         soma += c
