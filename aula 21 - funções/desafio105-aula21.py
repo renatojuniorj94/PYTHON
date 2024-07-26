@@ -17,14 +17,16 @@ def notas(*n, sit=False):
     :param sit:
     :return:
     """
-    boletim = dict()
-    r[] = len(n)
-    r[] = max(n)
-    r[] = min(n)
-    for c in n:
+    boletim = list()
+    itens = dict()
+    itens['total de notas'] = len(n)
+    itens['maior nota'] = max(n)
+    itens['menor nota'] = min(n)
+    boletim.append(itens)
+    for c in itens.values():
         soma = 0
         soma += c
     media = soma / len(n)
 
 
-notas()
+notas(5, 7.3, 8)
