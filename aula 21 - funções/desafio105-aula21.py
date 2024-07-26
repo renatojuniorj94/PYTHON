@@ -19,14 +19,16 @@ def notas(*n, sit=False):
     """
     boletim = list()
     itens = dict()
-    itens['total de notas'] = len(n)
+    itens['total de notas'] = n
+    itens['número de notas'] = len(n)
     itens['maior nota'] = max(n)
     itens['menor nota'] = min(n)
-    boletim.append(itens)
-    for c in itens.values():
-        soma = 0
+    soma = 0
+    boletim.append(itens['total de notas'])
+    """for c in boletim:
         soma += c
-    media = soma / len(n)
+    media = soma / len(itens['total de notas'])"""
+    print(boletim)
 
 
-notas(5, 7.3, 8)
+notas(5, 8)
