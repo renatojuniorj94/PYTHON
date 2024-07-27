@@ -17,18 +17,21 @@ def notas(*n, sit=False):
     :param sit:
     :return:
     """
-    boletim = list()
     itens = dict()
-    itens['total de notas'] = n
-    itens['número de notas'] = len(n)
+    itens['notas'] = n
     itens['maior nota'] = max(n)
     itens['menor nota'] = min(n)
-    soma = 0
-    boletim.append(itens['total de notas'])
-    """for c in boletim:
-        soma += c
-    media = soma / len(itens['total de notas'])"""
-    print(boletim)
+    media = sum(itens['notas']) / len(n)
+    itens['media'] = media
+    if itens['situação'] <= 5:
+        itens['situação'] = 'Ruim'
+    elif itens['situação'] <= 7:
+        itens['situação'] = 'Razoável'
+    else:
+        itens['situação'] = 'Boa'
+
+    print(itens)
 
 
-notas(5, 8)
+resp = notas(5, 8, 9.3, sit=False)
+print(resp)
