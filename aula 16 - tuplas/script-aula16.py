@@ -39,5 +39,4 @@ print(c.index(5, 1))
 pessoa = ('Renato', 30, 'M', 1.76)
 #Deletando uma variável
 del pessoa
-print(pessoa)
-
+#print(pessoa) Essa variável foi deletada na linha 41.
