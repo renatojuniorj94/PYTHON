@@ -23,10 +23,10 @@ def notas(*n, sit=False):
     itens['menor nota'] = min(n)
     media = sum(itens['notas']) / len(n)
     itens['media'] = media
-    if itens['situação'] <= 5:
+    if media <= 5:
         itens['situação'] = 'Ruim'
-    elif itens['situação'] <= 7:
-        itens['situação'] = 'Razoável'
+    elif media <= 7:
+        media = 'Razoável'
     else:
         itens['situação'] = 'Boa'
 
