@@ -26,7 +26,7 @@ def notas(*n, sit=False):
     if media <= 5:
         itens['situação'] = 'Ruim'
     elif media <= 7:
-        media = 'Razoável'
+        itens['situação'] = 'Razoável'
     else:
         itens['situação'] = 'Boa'
 
