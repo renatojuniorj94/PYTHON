@@ -19,19 +19,22 @@ def notas(*n, sit=False):
     """
     itens = dict()
     itens['notas'] = n
+    itens['total notas'] = len(n)
     itens['maior nota'] = max(n)
     itens['menor nota'] = min(n)
     media = sum(itens['notas']) / len(n)
     itens['media'] = media
-    if media <= 5:
-        itens['situação'] = 'Ruim'
-    elif media <= 7:
-        itens['situação'] = 'Razoável'
+    if sit:
+        if media <= 5:
+            itens['situação'] = 'Ruim'
+        elif media <= 7:
+            itens['situação'] = 'Razoável'
+        else:
+            itens['situação'] = 'Boa'
     else:
-        itens['situação'] = 'Boa'
+        ''
 
     print(itens)
 
 
-resp = notas(5, 8, 9.3, sit=False)
-print(resp)
+notas(5, 8, 9.3, sit=True)
