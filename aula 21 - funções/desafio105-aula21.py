@@ -13,9 +13,9 @@ Adicione também as docstrings da função.
 def notas(*n, sit=False):
     """
     —> Função para analisar notas e situações de vários alunos.
-    :param n:
-    :param sit:
-    :return:
+    :param n: Pode receber uma quantidade indeterminada de números.
+    :param sit: sit=True > Exibe situação da média de notas.
+    :return: Lista com notas, total de notas, maior nota, menor nota, média e situação.
     """
     itens = dict()
     itens['notas'] = n
@@ -37,4 +37,4 @@ def notas(*n, sit=False):
     print(itens)
 
 
-notas(5, 8, 9.3, sit=True)
+notas(5, 8, 7, 4.2, 3.2, 2.2, sit=True)
