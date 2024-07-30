@@ -262,3 +262,23 @@ Entre a definição de uma função e o programa principal, dar um espaço de 2 
 
 -Retorno de resultados/valores (return)
     -
+
+--------------------------Aula 22 - Módulos e pacotes---------------------------
+
+Todo arquivo .py pode ser um módulo.
+Em caso de duas funcionalidades com o mesmo nome, vale a última funcionalidade importada.
+
+from uteis import fatorial
+uteis é o nome do módulo, e fatorial é o nome da função
+
+Vantagens:
+- Organização do código
+- Facilidade na manutenção
+- Ocultação de código detalhado
+- Reutilização em outro projetos
+
+*PACOTES* (Em outras linguagens bibliotecas)
+Quando um módulo fica muito grande
+
+Criando pacote:
+python package > __init__.py (dentro do arquivo)
