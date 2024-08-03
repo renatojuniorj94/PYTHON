@@ -1,3 +1,17 @@
+Precisão em números flutuantes(float):
+(https://www.alura.com.br/artigos/precisao-numeros-decimais-python?utm_term=&utm_campaign=%5BSearch%5D+%5B
+Performance%5D+-+Dynamic+Search+Ads+-+Artigos+e+Conte%C3%BAdos&utm_source=adwords&utm_medium=ppc&hsa_acc=
+7964138385&hsa_cam=11384329873&hsa_grp=164240702375&hsa_ad=703829337057&hsa_src=g&hsa_tgt=aud-574826424850:
+dsa-2276348409543&hsa_kw=&hsa_mt=&hsa_net=adwords&hsa_ver=3&gad_source=1&gclid=
+Cj0KCQjwh7K1BhCZARIsAKOrVqHvzL9EB5ChTPFE5UdVNz6XUZcBofyLBAP5LVhsjPPmyio96VjNz2kaApdcEALw_wcB)
+
+Formatação de ponto e virgula:
+(https://www.alura.com.br/artigos/formatando-moeda-no-python?utm_term=&utm_campaign=%5BSearch%5D+%5BPerformance%5D
++-+Dynamic+Search+Ads+-+Artigos+e+Conte%C3%BAdos&utm_source=adwords&utm_medium=ppc&hsa_acc=7964138385&hsa_cam=11384
+329873&hsa_grp=164240702375&hsa_ad=703829337057&hsa_src=g&hsa_tgt=aud-2200131122553:dsa-2276348409543&hsa_kw=&hsa_mt
+=&hsa_net=adwords&hsa_ver=3&gad_source=1&gclid=Cj0KCQjwh7K1BhCZARIsAKOrVqH7tBqhNIvfnliSMbEH5ePHsMm5XIlWoTJXS-EuU5QnQw
+RjrcfjZ4kaAl3LEALw_wcB)
+
 --------------Aula 4 - Criando variáveis--------------------
 
 Criando variáveis:
