@@ -6,12 +6,12 @@ def moeda(num):
     return real_formatado
 
 
-def aumentar(num, formatado=False):
-    return num + ((num * 10) / 100)
+def aumentar(num, porc, formatado=False):
+    return num + ((num * porc) / 100) if formatado is False else moeda()
 
 
-def diminuir(num, formatado=False):
-    return num - ((num * 13) / 100)
+def diminuir(num, porc, formatado=False):
+    return num - ((num * porc) / 100)
 
 
 def dobra(num, formatado=False):

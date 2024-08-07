@@ -4,9 +4,9 @@ para que elas aceitem um parâmetro a mais, informando se o valor
 retornado por elas vai ser ou não formatado pela função moeda(),
 desenvolvida no desafio 108.
 """
-from ex107 import moedas
+from ex109 import ex109
 preço = float(input('Digite o preço: '))
-print(f'A metade de {moedas.moeda(preço)} é {moedas.moeda(moedas.metade(preço))}')
-print(f'O dobro de {moedas.moeda(preço)} é {moedas.moeda(moedas.dobra(preço))}')
-print(f'Aumentando 10% temos {moedas.moeda(moedas.aumentar(preço))}')
-print(f'Reduzindo 13% temos {moedas.moeda(moedas.diminuir(preço))}')
+print(f'A metade de {ex109.moeda(preço)} é {ex109.moeda(ex109.metade(preço))}')
+print(f'O dobro de {ex109.moeda(preço)} é {ex109.moeda(ex109.dobra(preço))}')
+print(f'Aumentando 10% temos {ex109.moeda(ex109.aumentar(preço))}')
+print(f'Reduzindo 13% temos {ex109.moeda(ex109.diminuir(preço))}')
