@@ -6,7 +6,7 @@ desenvolvida no desafio 108.
 """
 from ex109 import ex109
 preço = float(input('Digite o preço: '))
-print(f'A metade de {ex109.moeda(preço)} é {ex109.moeda(ex109.metade(preço))}')
-print(f'O dobro de {ex109.moeda(preço)} é {ex109.moeda(ex109.dobra(preço))}')
-print(f'Aumentando 10% temos {ex109.moeda(ex109.aumentar(preço))}')
-print(f'Reduzindo 13% temos {ex109.moeda(ex109.diminuir(preço))}')
+print(f'A metade de {ex109.moeda(preço)} é {ex109.metade(preço, True)}')
+print(f'O dobro de {ex109.moeda(preço)} é {ex109.dobra(preço, True)}')
+print(f'Aumentando 10% temos {ex109.aumentar(preço, 10, True)}')
+print(f'Reduzindo 13% temos {ex109.diminuir(preço, 13, True)}')
