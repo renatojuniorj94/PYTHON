@@ -18,5 +18,28 @@ def dobra(num, formatado=False):
     return num * 2
 
 
-def metade(num, formatado=False):
+def metade(num):
     return num / 2
+
+#Correto! :D
+#Outra maneira de fazer...
+
+
+def aumentar(preço, taxa):
+    res = preço + (preço * taxa / 100)  # Calculo de aumento de porcentagem.
+    return res
+
+
+def diminuir(preço, taxa):
+    res = preço - (preço * taxa / 100)
+    return res
+
+
+def dobro(preço):
+    res = preço * 2
+    return res
+
+
+def metade(preço):
+    res = preço / 2
+    return res
