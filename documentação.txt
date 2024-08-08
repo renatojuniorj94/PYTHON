@@ -279,7 +279,7 @@ Entre a definição de uma função e o programa principal, dar um espaço de 2 
 
 --------------------------Aula 22 - Módulos e pacotes---------------------------
 
-Todo arquivo .py pode ser um módulo.
+Todo arquivo .py pode ser um módulo
 Em caso de duas funcionalidades com o mesmo nome, vale a última funcionalidade importada.
 
 from uteis import fatorial
