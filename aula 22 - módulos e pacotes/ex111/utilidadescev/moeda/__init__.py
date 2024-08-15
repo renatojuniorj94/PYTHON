@@ -32,3 +32,5 @@ def resumo(n, aumento, redução):
     print(f'{"Metade do preço:"} \t{moeda(metade(n))}')
     print(f'{"Aumento de "}{aumento}{"%:"} \t{moeda(aumentar(n, aumento))}')
     print(f'{"Redução de "}{redução}{"%:"} \t{moeda(diminuir(n, redução))}')
+
+# Correto! :D
