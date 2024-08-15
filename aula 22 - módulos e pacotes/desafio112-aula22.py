@@ -8,3 +8,5 @@ valores que sejam monetários.
 from ex112.utilidadescev import dado
 p = dado.leiaDinheiro('Digite: R$ ')
 dado.resumo(p, 35, 22)
+
+#Correto! :D
