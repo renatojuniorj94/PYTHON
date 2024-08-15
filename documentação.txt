@@ -325,3 +325,10 @@ Pacote uteis.py
         __init__.py
     cores()
         __init__.py
+
+--------------------------aula 23 - Tratamento de erros----------------------
+
+https://docs.python.org/pt-br/3/tutorial/errors.html
+
+Procurar por:
+Lista de exceções(Exception) de python
