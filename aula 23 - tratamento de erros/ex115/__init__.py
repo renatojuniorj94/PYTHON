@@ -25,7 +25,7 @@ def pessoasCadastradas():
     print('PESSOAS CADASTRADAS'.center(40))
     print('—' * 40)
     for p in pessoas:
-        print(f'{p['nome']:<25}  \t  {p['idade']} anos')
+        print(f'{p['nome']:<25}{p['idade']} anos')
 
 
 pessoasCadastradas()
