@@ -21,13 +21,17 @@ filme = {
 }
 
 #Para imprimir os valores:
+print('\033[0;31mImprimindo valores:\033[m')
 print(filme.values())
 #Para imprimir as chaves:
+print('\033[0;31mImprimindo chaves:\033[m')
 print(filme.keys())
 #Para imprimir itens (valor + chave):
+print('\033[0;31mImprimindo itens (valor + chave):\033[m')
 print(filme.items())
 
 #Lendo todos os itens do dicionário:
+print('\033[0;31mLendo todos os itens do dicionário:\033[m')
 for k, v in filme.items():
     print(f'O {k} é {v}')
 
