@@ -24,10 +24,10 @@ def menu():
         opção = int(input('\033[1;32mSua opção:\033[m '))
         if opção == 1:
             pessoasCadastradas()
-            sleep(3)
+            sleep(1.5)
         elif opção == 2:
             novoCadastro()
-            sleep(3)
+            sleep(1.5)
         else:
             break
 
