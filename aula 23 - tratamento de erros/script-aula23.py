@@ -12,7 +12,7 @@ except (ValueError, TypeError):
 except ZeroDivisionError:
     print('Não é possível dividir um número por zero.')
 except KeyboardInterrupt:
-    print('O usuário prederiu não informar os dados!')
+    print('O usuário preferiu não informar os dados!')
 except Exception as erro:
     print(f'O erro encontrado foi {erro.__cause__}')
 else:
