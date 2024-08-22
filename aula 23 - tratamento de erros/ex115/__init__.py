@@ -14,21 +14,26 @@ pessoas = [
 def menu():
     from time import sleep
     while True:
-        print('—' * 40)
-        print('MENU PRINCIPAL'.center(40))
-        print('—' * 40)
-        print('\033[1;32m1 -\033[m \033[1;34mVer pessoas cadastradas\033[m')
-        print('\033[1;32m2 -\033[m \033[1;34mCadastrar nova pessoa\033[m')
-        print('\033[1;32m3 -\033[m \033[1;34mSair do sistema\033[m')
-        print('—' * 40)
-        opção = int(input('\033[1;32mSua opção:\033[m '))
-        if opção == 1:
-            pessoasCadastradas()
-            sleep(1.5)
-        elif opção == 2:
-            novoCadastro()
-            sleep(1.5)
-        else:
+        try:
+            print('—' * 40)
+            print('MENU PRINCIPAL'.center(40))
+            print('—' * 40)
+            print('\033[1;32m1 -\033[m \033[1;34mVer pessoas cadastradas\033[m')
+            print('\033[1;32m2 -\033[m \033[1;34mCadastrar nova pessoa\033[m')
+            print('\033[1;32m3 -\033[m \033[1;34mSair do sistema\033[m')
+            print('—' * 40)
+            opção = int(input('\033[1;32mSua opção:\033[m '))
+            if opção == 1:
+                pessoasCadastradas()
+                sleep(1.5)
+            elif opção == 2:
+                novoCadastro()
+                sleep(1.5)
+            elif opção == 3:
+                print(f'<<< Volte sempre! >>>')
+                break
+        except ValueError:
+            print(f'<<< Volte sempre! >>>')
             break
 
 
