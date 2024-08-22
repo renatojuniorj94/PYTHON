@@ -29,12 +29,15 @@ def menu():
             elif opção == 2:
                 novoCadastro()
                 sleep(1.5)
+            elif opção < 1 or opção > 3:
+                print('\033[31mOpção inválida!\033[m')
+                sleep(1.5)
             elif opção == 3:
-                print(f'<<< Volte sempre! >>>')
+                print('\033[1;34;43m<<< Volte sempre! >>>\033[m')
                 break
         except ValueError:
-            print(f'<<< Volte sempre! >>>')
-            break
+            print('\033[31mERRO: Por favor, digite um número válido.\033[m')
+            sleep(1.5)
 
 
 def pessoasCadastradas():
