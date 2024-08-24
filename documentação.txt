@@ -332,3 +332,5 @@ https://docs.python.org/pt-br/3/tutorial/errors.html
 
 Procurar por:
 Lista de exceções(Exception) de python
+
+---------------fim--------------------
