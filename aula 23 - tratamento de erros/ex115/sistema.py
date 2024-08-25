@@ -1,3 +1,4 @@
+#Correção
 from lib.interface import *
 from time import sleep
 #cabeçalho('SISTEMA ARQUIVO v1.0')
