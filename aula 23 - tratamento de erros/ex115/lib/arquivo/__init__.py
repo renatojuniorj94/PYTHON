@@ -1,4 +1,4 @@
-from .. interface import cabeçalho
+from ..interface import cabeçalho
 
 
 def arquivoExiste(nome):
@@ -13,7 +13,7 @@ def arquivoExiste(nome):
 
 def criarArquivo(nome):
     try:
-        a = open(nome, 'wt+') # 'wt' = write text / + = Se não houver arquivo, ele cria
+        a = open(nome, 'wt+')  # 'wt' = write text / + = Se não houver arquivo, ele cria
         a.close()
     except:
         print('Houve um ERRO na criação do arquivo!')
@@ -39,7 +39,7 @@ def lerArquivo(nome):
 
 def cadastrar(arq, nome='desconhecido', idade=0):
     try:
-        a = open(arq, 'at') # 'at' = append text
+        a = open(arq, 'at')  # 'at' = append text
     except:
         print('Houve um ERRO na abertura do arquivo!')
     else:

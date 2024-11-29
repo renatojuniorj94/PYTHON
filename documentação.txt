@@ -302,7 +302,7 @@ Exemplo de módulo:
 from uteis import fatorial, dobro
 Em caso de duas funções com o mesmo nome, vale a última funcionalidade importada. Por isso o mais
 recomendado é importar somente "uteis".
-uteis é o nome do módulo, e fatorial é o nome da função
+Úteis é o nome do módulo, e fatorial é o nome da função
 
 Vantagens:
 - Organização do código
