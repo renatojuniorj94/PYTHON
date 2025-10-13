@@ -25,12 +25,12 @@ def metade(num):
 #Outra maneira de fazer...
 
 
-def aumentar(preço, taxa):
+def aumentar2(preço, taxa):
     res = preço + (preço * taxa / 100)  # Calculo de aumento de porcentagem.
     return res
 
 
-def diminuir(preço, taxa):
+def diminuir2(preço, taxa):
     res = preço - (preço * taxa / 100)
     return res
 
@@ -40,6 +40,6 @@ def dobro(preço):
     return res
 
 
-def metade(preço):
+def metade2(preço):
     res = preço / 2
     return res
